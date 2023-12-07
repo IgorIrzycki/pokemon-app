@@ -1,0 +1,47 @@
+.TeamWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Zamiast flex-start, aby drużyny były ułożone w rzędy po 3 */
+}
+
+.TeamContainer2 {
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: calc(33.33% - 20px); 
+  background-color: aliceblue;
+  box-sizing: border-box; /* Zapobiega dodawaniu marginesów do szerokości, co utrzymuje stałą szerokość */
+}
+
+.TeamContainer2 h2 {
+  font-weight: bold;
+}
+
+.TeamContainer2 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Aby pokemony były ułożone w rzędy po 3 */
+}
+
+.TeamContainer2 li {
+  width: calc(33.33% - 10px); /* Szerokość trzech Pokemonów w jednym rzędzie z odstępem 10px */
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.TeamContainer2 li img {
+  max-width: 100%;
+  height: auto;
+}
+
+.TeamContainer2 li p {
+  margin: 0;
+  text-align: center;
+}

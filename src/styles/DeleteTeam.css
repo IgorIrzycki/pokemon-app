@@ -1,0 +1,38 @@
+/* Dodaj te style do odpowiedniego pliku .css lub .scss */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Kolor tła nagłówków */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Kolor tła parzystych wierszy */
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff; /* Kolor tła nieparzystych wierszy */
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cc0000;
+  }
+  
