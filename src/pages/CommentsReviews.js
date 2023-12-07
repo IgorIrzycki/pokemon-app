@@ -82,8 +82,8 @@ const CommentsReviews = () => {
               onChange={handleReviewChange}
             />
             <div className="ButtonContainer">
-              <button onClick={handleAddReview}>Submit Review</button>
-              <button onClick={handleCancelReview}>Cancel</button>
+              <button className="ButtonSubmitReview" onClick={handleAddReview}>Submit Review</button>
+              <button className="ButtonCancelReview" onClick={handleCancelReview}>Cancel</button>
             </div>
           </div>
         </div>
